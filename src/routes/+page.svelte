@@ -1,3 +1,7 @@
+<script>
+	import Experience from "../components/Experience.svelte";
+
+</script>
 <main>
     <section id="profile-section">
         <h1>Breno Almeida</h1>
@@ -14,6 +18,11 @@
     <aside>
         <section>
             <div>
+                <Experience props={
+                    {title: "Desenvolvedor Junior em Núria", subtitle: null,
+                        description: "Atuei em pequenas entregas para o mercado de saúde, em contato direto com o cliente, desenvolvi features e melhorei a segurança dos mesmos",
+                        technologies: ["JQuery", "PHP", "MySQL", "Code Igniter", "C#"]}
+                    }/>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto neque, voluptates perspiciatis quos officia voluptatem commodi unde! Harum ad eligendi, error blanditiis laudantium at. Perspiciatis amet delectus eos eligendi suscipit.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto neque, voluptates perspiciatis quos officia voluptatem commodi unde! Harum ad eligendi, error blanditiis laudantium at. Perspiciatis amet delectus eos eligendi suscipit.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto neque, voluptates perspiciatis quos officia voluptatem commodi unde! Harum ad eligendi, error blanditiis laudantium at. Perspiciatis amet delectus eos eligendi suscipit.</p>
